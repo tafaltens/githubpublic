@@ -4,5 +4,5 @@
 # jupyter tool
 #
 /usr/bin/invoke_app "$@" -t githubpublic \
-                         -C "start_jupyter -t -T @tool /doc/notebook_01.ipynb" \
+                         -C "start_jupyter -t -T @tool doc/notebook_01.ipynb" \
                          -u anaconda-6
